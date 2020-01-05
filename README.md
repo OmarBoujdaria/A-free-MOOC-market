@@ -2,6 +2,63 @@
 
 One Paragraph of project description goes here
 
+## Guidelines
+
+
+ Can we predict success or is it random ?
+
+- dont dive into topic, or content of the course, check predictivity for metadata first
+- we can add how many other course treat the same topic ie topic popularity among dataset , for each course
+
+
+### course content analysis
+- Define how to measure success of a course ? ---> normlaize the total number of subs to each topic
+
+- cluster the course topics: using the tags from  stack overflow we can have the popularity of a topic ? think about how to combine all the tags from a course to GET THE POPUARITY OF THE COURSE not the various popularities from 
+
+- categorize the granularity of the courses : is it about webdev, or a specific tool in webdev ?
+
+- Is it one of the first courses in this topic that are succesfull, or look like an existing one ?
+- we can match the tags in the syllabus with tags from StacKoverflow
+
+- is there a patern in appearance of courses in the same topic ? from the first course ever in this topic to the hole bundle of course, course in time analysis
+
+### MetaData analysis :
+
+- success measured by : (n subsriber)/(age)
+
+- might try : dividing subscriber by log of age
+
+- Maybe offset by course duration or length, for the same number of subscribers a 40h course is less succesfull than a 2 hour
+
+- calculate a score for a set a successful courses, and say that sucessfulness is attainging 90% of this score.
+
+- correlate the score value with feature of the course : how many lectures when published, how mayny were added
+
+- check rating of the first month or 3 frst months
+
+- HYPOTHESIS: the first moment a course is published is a major determinant of the success
+
+- plot correlation of score and other ffeatures
+
+### Objective : 
+- **Set different ranks**
+- **compare them then aggregate**
+- **run regression**
+
+- (Clustering) the courses by topics (granulatrity, ...)
+- for  each topic analyze  the feature of most and least succesfull courses.
+
+![alt text](todo21Nov.jpg)
+
+Here are the 3 features we discussed that are related to the topic of a course:
+indicator variables for what the topic is
+how many courses have come in its own topic before it
+how popular are the courses in its own topic at the time of its publication
+
+ (Ramtin 22 Novembre) 
+
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
