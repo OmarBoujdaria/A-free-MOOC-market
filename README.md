@@ -1,6 +1,6 @@
-# Project Title
+# A free Mook Market
 
-One Paragraph of project description goes here
+Predicting and explaining success of a MOOC course.
 
 ## Guidelines
 
